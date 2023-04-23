@@ -8,26 +8,36 @@ body{
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
 h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
+p{ font-size: 1.25em;
+    margin: 0px;
+
+}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 form {
-	max-width: 1000px;
-	margin: auto;
-	background-color: #ebebeb;
+	display: inline-block;
+    max-width: 1000px;
+	margin:unset;
+    margin: 0%;
+	background-color: #dfd6d6;
 	padding: 50px;
 	border-radius: 25px;
 	box-shadow: 0 2px 5px rgba(7, 88, 99, 0.712);
 }
 .especial{
-    padding: 45px;
+    padding: 15px;
+    display: inline-block;
     align-self: center;
+    display: flex;
     background-color: rgb(105, 146, 146);
 }
 
 .contenido{
-    max-width: 500px;
-    padding: 45px;
+    padding: 15px;
+    padding-inline: 15px;
+    display: inline-block;
+    align-self: center;
+    display: flex;
     background-color: rgb(196, 160, 193);
 }
 
@@ -38,23 +48,23 @@ button{
     border-radius: 5px;
 
     box-shadow: 2px 2px 10px rgba(165, 149, 149, 0.5);
-    color: white;
+    color: rgb(20, 19, 19);
     background-color: rgb(184, 90, 184);
 }
 
 button:hover{
     background-color: rgb(101, 33, 165);
 }
-.color-acento{ color:rgb(29, 10, 46); }
+.color-acento{ color:rgb(96, 13, 168); }
 
 header .logo{
     margin: 0;
     padding: 35px 30px;
     font-weight: bold;
     text-indent: 1.5;
-    color: rgb(75, 12, 57);
+    color: rgb(248, 248, 248);
     word-spacing: 10px;
-    border: black;
+    border: rgb(14, 13, 13);
     font-size: 2.055em;
     text-decoration-color: rgb(101, 117, 122);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,10 +73,11 @@ header .logo{
     font-size: 50px;
 }
 .container {
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
-	background-color: #cdcbce;
+    display: inline-block;
+	background-color: #000000;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .content {
@@ -78,6 +89,7 @@ header .logo{
 .left {
 	flex-basis: 55%;
 	margin-right: 3%;
+    display: inline-block;
 }
 
 .right {
@@ -85,6 +97,7 @@ header .logo{
 	margin-left: 3%;
     text-align: justify;
     border-style: hidden;
+    display: inline-block;
 }
 header nav{
     display: flex;
@@ -105,25 +118,20 @@ header a{
 }
 aside{
     text-align:justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 23px;
 }
 
 header a:hover{
     color: rgb(206, 100, 200);
 }
-.fondo{
-    text-align: center;
-    height: 80px;
-    padding: 1px;
-    background-image: url(https://img.freepik.com/foto-gratis/papel-arena-azul-turquesa_53876-92791.jpg?w=360);
-    background-size: cover;
-}
+
 .header{
     text-align: center;
     height: 300px;
     padding: 45px;
-    background-image: url(https://img.freepik.com/foto-gratis/papel-arena-azul-turquesa_53876-92791.jpg?w=360);
+    background-image: url(https://w0.peakpx.com/wallpaper/708/357/HD-wallpaper-color-beograd-fucsia-love.jpg);
     background-size: cover
 }
 .avatar{
@@ -137,7 +145,7 @@ header a:hover{
     font-style: normal;
     font-size: 40px;
     margin-top: 20px;
-    color: rgb(255, 248, 248);
+    color: rgb(199, 190, 190);
     
 }
 .socials{
@@ -152,7 +160,7 @@ header a:hover{
 }
 a{
     text-decoration: none;
-    color: rgb(13, 13, 14);
+    color: rgb(1, 1, 17);
     text-align: justify;
 }
 a:hover{
